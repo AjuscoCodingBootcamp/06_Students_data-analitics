@@ -1,0 +1,46 @@
+* {
+  margin: 1px;
+  padding: 1px;
+}
+body {
+  background-color: blue;
+}
+
+main {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  gap: 1% 1%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: Document 1fr 1fr 1fr;
+  grid-template-areas:
+    "header   header   aside"
+    "alumnos  alumnos  aside"
+    "alumnos  alumnos  aside";
+}
+
+header {
+  grid-area: header;
+  background-color: crimson;
+  border-radius: 10px;
+}
+aside {
+  grid-area: aside;
+  background-color: darkolivegreen;
+  border-radius: 10px;
+}
+#alumnos {
+  grid-area: alumnos;
+  background-color: darkorange;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 620px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: Document 1fr 1fr 1fr;
+    grid-template-areas:
+      "header"
+      "aside"
+      "alumnos";
+  }
+}

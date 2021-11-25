@@ -1,0 +1,29 @@
+{
+  "name": "06_students_data-analitics",
+  "version": "1.0.0",
+  "description": "data dashboard",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaz0King/06_Students_data-analitics.git"
+  },
+  "keywords": [
+    "data",
+    "dashboard"
+  ],
+  "author": "Jaziel Ramirez, Alberto Gutierrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaz0King/06_Students_data-analitics/issues"
+  },
+  "homepage": "https://github.com/Jaz0King/06_Students_data-analitics#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
